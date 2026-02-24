@@ -122,3 +122,47 @@
     line-break: normal;
     color: #555555;
 }
+
+.message{
+    margin-top: 9%;
+    box-sizing: border-box;
+    padding: 43px 10%;
+    background-image: linear-gradient( to right, rgba( 240, 197, 197, 0.1) , rgba(185, 186, 190, 0.2));
+}
+
+
+.message .card-pres img{
+    width: 235px;
+    height: 44vh;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    border: 3px solid black;
+    border-color: white;
+    box-shadow: 1px 1px 15px  rgb(167, 159, 159);
+    cursor: pointer;
+}
+
+
+.card-pres img:hover{
+ transform: translateY(-2px);
+ transition-duration: 0.05s;
+}
+
+.message .btn{
+    position: relative;
+    background-color: #ff6b07 ;
+    color: white;
+    padding: 3px 35px;
+    text-align: center;
+    border-radius: 20px;
+   }
+
+   .btn{
+    left: 15px;
+    bottom: 40px;
+    font-weight: 700;
+    font-size: 15px;
+   }
+
