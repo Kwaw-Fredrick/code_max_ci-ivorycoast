@@ -159,10 +159,104 @@
     border-radius: 20px;
    }
 
-   .btn{
+.btn{
     left: 15px;
     bottom: 40px;
     font-weight: 700;
     font-size: 15px;
-   }
+}
+
+.btn:hover{
+    background-color: #008c00;
+}
+
+.message .info-head{
+    position: relative;
+    display: flex;
+    text-align: start;
+}
+
+.info-head{
+    position: absolute;
+    right: 240px;
+    top: 30px;
+}
+
+.message .text-header{
+    font-weight: 800;
+    color: #2c3e50;
+    position: relative;
+}
+
+.message .text-header::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 72px;
+    background-image: linear-gradient(to left, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95));
+    display: inline-block;
+    top: 60px;
+    right: 326px;
+    border-radius: 5px;
+}
+
+.message .card-c{
+    background-image: linear-gradient( to right, rgba(255, 208, 216, 0.5) , rgba(255, 208, 216, 0.3));
+    position: relative;
+    display: flex;
+    text-align: start;
+    padding: 15px 30px;
+    border-left: 4px solid #ff6b07 ;
+}
+
+.card-c{
+    position: absolute;
+    bottom: 189%;
+    left: 45%;
+}
+
+.message .lit{
+    position: relative;    
+}
+
+ .lit{
+    position: absolute;
+    bottom: 100px;
+    right: 415px;
+}
+
+.lit h6{
+    color: #2c3e50;
+}
+
+
+.table{
+    position: relative;
+}
+
+.table-header{
+    font-weight: 800;
+    color: #2c3e50;
+    position: absolute;
+    bottom: 50px;
+    left: 390px;
+}
+
+.table-header::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    background-image: linear-gradient(to right, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95));
+    align-items: center;
+    align-content: center;
+    left: 50%;
+    right: 0;
+    top: 120%;
+    display: block;
+}
+
+
+
 
