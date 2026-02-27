@@ -131,6 +131,7 @@
 }
 
 
+
 .message .card-pres img{
     width: 235px;
     height: 44vh;
@@ -232,13 +233,13 @@
 
 .table{
     position: relative;
+    overflow: hidden;
 }
 
 .table-header{
     font-weight: 800;
     color: #2c3e50;
     position: absolute;
-    bottom: 50px;
     left: 390px;
 }
 
@@ -256,6 +257,12 @@
     top: 120%;
     display: block;
 }
+
+.accord{
+    font-size: 23px;
+    font-weight: 900;
+}
+
 
 
 
