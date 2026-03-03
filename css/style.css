@@ -1,66 +1,66 @@
 .moving-text {
-  white-space: nowrap;
-  display: inline-block;
-  padding-left: 100%;       
-  animation: scroll 60s linear infinite;
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 60s linear infinite;
 }
 
 @keyframes scroll {
 
-  100% {
-    transform: translateX(-100%); 
-  }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .green {
-  background: #008c00; /* your green */
-  border-top-left-radius: 5px;
-  
+    background: #008c00;
+    border-top-left-radius: 5px;
+
 }
 
-.flag{
+.flag {
     margin-left: 0.5rem;
 }
 
-.green .slideinfo{
+.green .slideinfo {
     font-weight: bold;
     margin-top: 12px;
 }
 
 
-.division img{
+.division img {
     width: 260px;
-} 
-
-.com{
-        margin-left: -99px;
 }
 
-.comm{
+.com {
+    margin-left: -99px;
+}
+
+.comm {
     margin-left: 99px;
 }
 
-.navbar{
+.navbar {
     background: black;
     height: 100px;
 }
 
- .form-control{
-    background-color: lch(41.32% 0.84 19.12 / 0.282);    
+.form-control {
+    background-color: lch(41.32% 0.84 19.12 / 0.282);
     border-color: rgb(112, 73, 79);
     border-radius: 10px;
     width: 300px;
     height: 60px;
 }
 
-.form-control::placeholder{
+.form-control::placeholder {
     color: rgb(148, 147, 147);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 .navbar-nav .nav-link {
-    color: white !important ;
+    color: white !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -68,31 +68,31 @@
     font-family: poppins, sans-serif;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
     font-weight: bold;
 }
 
-.navbar-nav .nav-item:hover{
-    background-color:  lch(72.89% 1.5 19.19 / 0.282) ;
+.navbar-nav .nav-item:hover {
+    background-color: lch(72.89% 1.5 19.19 / 0.282);
     border-radius: 5px;
 }
 
-.info{
-    font-family:  poppins, sans-serif;
-    box-sizing: border-box;   
-    margin-top: 5%; 
+.info {
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+    margin-top: 5%;
 }
 
-.info .card{
+.info .card {
     box-shadow: 0 8px 5px 8px rgba(94, 93, 93, 0.1);
-    border-top: 3px solid rgba(255,102,0,.1);
-    border-image: linear-gradient(to right, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95)) 1 0 0 0;
+    border-top: 3px solid rgba(255, 102, 0, .1);
+    border-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95)) 1 0 0 0;
     border-radius: 10px;
     padding-bottom: 20px;
-    
+
 }
 
-.card-title{
+.card-title {
     font-weight: 800;
     margin-top: 30px;
     color: #2c3e50;
@@ -101,13 +101,13 @@
     display: inline-block;
 }
 
-.card-title::after{
+.card-title::after {
     content: "";
     width: 70px;
     height: 3px;
     border-radius: 3px;
     position: absolute;
-    background-image: linear-gradient(to right, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95));
+    background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     align-items: center;
     align-content: center;
     left: 50%;
@@ -116,23 +116,23 @@
     display: block;
 }
 
-.card-subtitle{
+.card-subtitle {
     padding: 10px 39px;
     width: 100%;
     line-break: normal;
     color: #555555;
 }
 
-.message{
+.message {
     margin-top: 9%;
     box-sizing: border-box;
     padding: 43px 10%;
-    background-image: linear-gradient( to right, rgba( 240, 197, 197, 0.1) , rgba(185, 186, 190, 0.2));
+    background-image: linear-gradient(to right, rgba(240, 197, 197, 0.1), rgba(185, 186, 190, 0.2));
 }
 
 
 
-.message .card-pres img{
+.message .card-pres img {
     width: 235px;
     height: 44vh;
     border-radius: 10px;
@@ -141,115 +141,115 @@
     object-fit: cover;
     border: 3px solid black;
     border-color: white;
-    box-shadow: 1px 1px 15px  rgb(167, 159, 159);
+    box-shadow: 1px 1px 15px rgb(167, 159, 159);
     cursor: pointer;
 }
 
 
-.card-pres img:hover{
- transform: translateY(-2px);
- transition-duration: 0.05s;
+.card-pres img:hover {
+    transform: translateY(-2px);
+    transition-duration: 0.05s;
 }
 
-.message .btn{
+.message .btn {
     position: relative;
-    background-color: #ff6b07 ;
+    background-color: #ff6b07;
     color: white;
     padding: 3px 35px;
     text-align: center;
     border-radius: 20px;
-   }
+}
 
-.btn{
+.btn {
     left: 15px;
     bottom: 40px;
     font-weight: 700;
     font-size: 15px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #008c00;
 }
 
-.message .info-head{
+.message .info-head {
     position: relative;
     display: flex;
     text-align: start;
 }
 
-.info-head{
+.info-head {
     position: absolute;
     right: 240px;
     top: 30px;
 }
 
-.message .text-header{
+.message .text-header {
     font-weight: 800;
     color: #2c3e50;
     position: relative;
 }
 
-.message .text-header::after{
+.message .text-header::after {
     position: absolute;
     content: "";
     height: 4px;
     width: 72px;
-    background-image: linear-gradient(to left, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95));
+    background-image: linear-gradient(to left, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     display: inline-block;
     top: 60px;
     right: 326px;
     border-radius: 5px;
 }
 
-.message .card-c{
-    background-image: linear-gradient( to right, rgba(255, 208, 216, 0.5) , rgba(255, 208, 216, 0.3));
+.message .card-c {
+    background-image: linear-gradient(to right, rgba(255, 208, 216, 0.5), rgba(255, 208, 216, 0.3));
     position: relative;
     display: flex;
     text-align: start;
     padding: 15px 30px;
-    border-left: 4px solid #ff6b07 ;
+    border-left: 4px solid #ff6b07;
 }
 
-.card-c{
+.card-c {
     position: absolute;
     bottom: 189%;
     left: 45%;
 }
 
-.message .lit{
-    position: relative;    
+.message .lit {
+    position: relative;
 }
 
- .lit{
+.lit {
     position: absolute;
     bottom: 100px;
     right: 415px;
 }
 
-.lit h6{
+.lit h6 {
     color: #2c3e50;
 }
 
 
-.table{
+.table {
     position: relative;
     overflow: hidden;
 }
 
-.table-header{
+.table-header {
     font-weight: 800;
     color: #2c3e50;
     position: absolute;
     left: 390px;
 }
 
-.table-header::after{
+.table-header::after {
     content: "";
     width: 70px;
     height: 3px;
     border-radius: 3px;
     position: absolute;
-    background-image: linear-gradient(to right, #ff6b07 , rgb(209, 161, 4), rgb(63, 192, 95));
+    background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     align-items: center;
     align-content: center;
     left: 50%;
@@ -258,12 +258,105 @@
     display: block;
 }
 
-.accord{
+.accord {
     font-size: 23px;
     font-weight: 900;
+    margin: 0 100px;
+}
+
+.structure {
+    margin-top: 10px;
+}
+
+.structure-header {
+    position: relative;
+}
+
+.structure-header::after {
+   content: "";
+    width: 70px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
+    align-items: center;
+    align-content: center;
+    left: 50%;
+    right: 0;
+    top: 120%;
+    display: inline-block;
+}
+
+.structure-header {
+    font-weight: 900;
+    color: #2c3e50;
 }
 
 
+.structure img {
+    width: 120px;
+    box-shadow: 1px 0 33px rgb(201, 197, 184);
+    padding: 40px 5px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+.structure img:hover{
+   transform: translateY(-3px);
+    transition-duration: 0.15s;
+}
 
+footer{
+    background-color: black;
+    padding: 20px 30px;
+}
 
+footer li {
+    color: white;
+    justify-content: space-between;
+    display: flex ;
+    margin: 6px;
+    text-align: start;
+    font-family: sans-serif;
+    margin: 4px 2px;
+}
+
+.footer-head, .sec-head, .third-head{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 10px 5px;
+    margin-bottom: 30px;    
+}
+
+.footer-head::after{
+    content: "";
+    width: 70px;
+    height: 6px;
+    background-color: #ff6b07;
+    display: inline-block;
+    position: absolute;
+    bottom: -175%;
+    left: 30.8%;
+    justify-content: center;
+}
+
+.first-list{
+    left: 40%;
+    margin-left: 28%;
+}
+
+.copy{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: red;
+    overflow: hidden;
+}
