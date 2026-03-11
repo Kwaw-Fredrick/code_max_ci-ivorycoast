@@ -110,7 +110,7 @@
     background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     align-items: center;
     align-content: center;
-    left: 50%;
+    left: 46%;
     right: 0;
     top: 120%;
     display: block;
@@ -132,7 +132,7 @@
 
 
 
-.message .card-pres img {
+.message .card-pres .president {
     width: 235px;
     height: 44vh;
     border-radius: 10px;
@@ -146,7 +146,7 @@
 }
 
 
-.card-pres img:hover {
+.card-pres .president:hover {
     transform: translateY(-2px);
     transition-duration: 0.05s;
 }
@@ -197,7 +197,7 @@
     background-image: linear-gradient(to left, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     display: inline-block;
     top: 60px;
-    right: 326px;
+    right: 328px;
     border-radius: 5px;
 }
 
@@ -226,22 +226,34 @@
     right: 415px;
 }
 
-.lit h6 {
+.lit .lit-head {
     color: #2c3e50;
 }
 
+.small{
+    margin-top: -10px;
+}
 
 .table {
     position: relative;
     overflow: hidden;
+    padding: 15% 0;
+
+}
+
+.table{
+    bottom: 90px;
+    padding-bottom: 45%;
 }
 
 .table-header {
     font-weight: 800;
     color: #2c3e50;
     position: absolute;
-    left: 390px;
+    margin-left: 20%;
+    top: 120px;
 }
+
 
 .table-header::after {
     content: "";
@@ -252,7 +264,7 @@
     background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     align-items: center;
     align-content: center;
-    left: 50%;
+    left: 45%;
     right: 0;
     top: 120%;
     display: block;
@@ -262,7 +274,49 @@
     font-size: 23px;
     font-weight: 900;
     margin: 0 100px;
+    margin-bottom: 60px;
 }
+
+
+
+
+ .chart-image {
+    position: relative;
+}
+
+.chart-image{
+    position: absolute;
+    top: 300px;
+    width: 400px;
+    left: 167px;
+    background-color: whitesmoke;
+}
+
+
+.flux{
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 189px;
+
+}
+
+.flux-image{
+    position: absolute;
+    top: 320px;
+    width: 500px;
+    right: 50px;
+    background: white;
+    padding: 5px;
+}
+
+
+.toblocked{
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+    
+}
+
 
 .structure {
     margin-top: 10px;
@@ -270,6 +324,7 @@
 
 .structure-header {
     position: relative;
+    text-align: center;
 }
 
 .structure-header::after {
@@ -281,7 +336,7 @@
     background-image: linear-gradient(to right, #ff6b07, rgb(209, 161, 4), rgb(63, 192, 95));
     align-items: center;
     align-content: center;
-    left: 50%;
+    left: 48.5%;
     right: 0;
     top: 120%;
     display: inline-block;
@@ -293,7 +348,7 @@
 }
 
 
-.structure img {
+.structure .structure-image{
     width: 120px;
     box-shadow: 1px 0 33px rgb(201, 197, 184);
     padding: 40px 5px;
@@ -306,6 +361,7 @@
    transform: translateY(-3px);
     transition-duration: 0.15s;
 }
+
 
 footer{
     background-color: black;
@@ -327,24 +383,15 @@ footer li {
     font-size: 14px;
     font-weight: 800;
     margin: 10px 5px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;  
+    margin-left: 30px;  
 }
 
-.footer-head::after{
-    content: "";
-    width: 70px;
-    height: 6px;
-    background-color: #ff6b07;
-    display: inline-block;
-    position: absolute;
-    bottom: -175%;
-    left: 30.8%;
-    justify-content: center;
-}
 
 .first-list{
-    left: 40%;
-    margin-left: 28%;
+font-size: 13px;
+font-family: sans-serif;
+font-weight: 400;
 }
 
 .copy{
@@ -355,8 +402,50 @@ footer li {
 
 .line{
     width: 100%;
-    height: 2px;
+    height: 1px;
     margin: 20px 0;
-    background-color: red;
+    background-color: #ffff;
     overflow: hidden;
+}
+
+
+footer hr{
+     height: 7px;
+     width: 80px;
+     background: orangered;
+     margin-left: 33px;
+     
+}
+
+
+.footer-image{
+    background-color: whitesmoke;
+    width: 28%;
+    height: 13vh;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 13px;
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+.image-bout{
+    font-size: 12px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.uplink{
+    margin-left: 58%;
+    color: white;
+}
+
+.uplink:hover{
+   color: #ff6b07;
+}
+
+.socials {
+    color: #ff6b07;
+    font-style: normal;
 }
