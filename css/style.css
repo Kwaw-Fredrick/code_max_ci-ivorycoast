@@ -70,10 +70,11 @@
 
 .navbar-nav .nav-item {
     font-weight: bold;
+    margin-left: 30px;
 }
 
 .navbar-nav .nav-item:hover {
-    background-color: lch(72.89% 1.5 19.19 / 0.282);
+    background: lch(72.89% 1.5 19.19 / 0.282);
     border-radius: 5px;
 }
 
@@ -448,4 +449,112 @@ footer hr{
 .socials {
     color: #ff6b07;
     font-style: normal;
+}
+
+
+.updatebar{
+    background-image: linear-gradient( 135deg, #FF8C00 0%, #FF7700 100%);
+    padding: 16px;
+}
+
+.updatebar-header{
+    color: white;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+
+.updatebar .updatebar-text{
+    position: relative;
+    color: white;
+
+}
+
+.updatebar-text{
+    position: absolute;
+    top: 0;
+    bottom: 90px;
+    font-family:  Poppins, sans-serif;
+}
+
+
+.card-tit{
+     font-weight: 800;
+    margin-top: 30px;
+    color: #2c3e50;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;   
+}
+
+
+.card-1{
+    box-shadow: 0 8px 5px 8px rgba(94, 93, 93, 0.1);
+    border-top: 3px solid rgba(255, 102, 0, .1);
+    border-top-color: #ff6b07;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.countrymap{
+    overflow: hidden;
+}
+
+.card-reg{
+    background: #ff6b07;
+    color: white;
+}
+
+.card-reg-hard{
+    margin-left: 12px;
+    font-size: 18px;
+    margin-top: 7px;
+    top: 13px;
+}
+
+.countrymap .card-reg-hard{
+    position: relative;
+}
+
+.countrymap .countrymap-icon{
+    position: relative;
+}
+
+.countrymap-icon{
+    position: absolute;
+    top: -16px;
+    left: 90%;
+}
+
+.unseen{
+    background: white;
+    font-size: xx-large;
+}
+
+.country .country-text .form-select{
+    position: relative;
+}
+
+.country-text{
+    color: rgb(185, 35, 35);
+    font-size: 20px;
+}
+
+
+.form-select{
+    border: 1px transparent rgb(87, 85, 83);
+    border-top: white;
+    border-left: white ;
+    border-right: white;
+}
+
+.form-select:focus {
+    border-color: #333;   
+    outline: 2px;
+    box-shadow: none;     
+}
+
+option:hover{
+    color: red;
+    background: green;
 }
