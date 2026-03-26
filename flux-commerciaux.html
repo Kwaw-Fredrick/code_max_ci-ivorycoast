@@ -7,6 +7,7 @@
     <title>Flux Commerciaux</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/querry.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,52 +103,52 @@
     </div>
 
     <div class="okay">
-    <div class="filter-sidebar col-md-2 mb-5">
+        <div class="filter-sidebar col-md-2 mb-5">
 
-        <fieldset class="custom-fieldset">
-            <legend>Année</legend>
-            <select class="form-select-custom">
-                <option>2025</option>
-                <option>2024</option>
-            </select>
-        </fieldset>
+            <fieldset class="custom-fieldset">
+                <legend>Année</legend>
+                <select class="form-select-custom">
+                    <option>2025</option>
+                    <option>2024</option>
+                </select>
+            </fieldset>
 
-        <fieldset class="custom-fieldset">
-            <legend>Flux échanges</legend>
-            <select class="form-select-custom">
-                <option>Global</option>
-                <option>Import</option>
-                <option>Export</option>
-            </select>
-        </fieldset>
+            <fieldset class="custom-fieldset">
+                <legend>Flux échanges</legend>
+                <select class="form-select-custom">
+                    <option>Global</option>
+                    <option>Import</option>
+                    <option>Export</option>
+                </select>
+            </fieldset>
 
-        <fieldset class="custom-fieldset">
-            <legend>continent</legend>
-            <select class="form-select-custom">
-                <option selected disabled>...</option>
-                <option>Ghana</option>
-                <option>Côte d'Ivoire</option>
-            </select>
-        </fieldset>
+            <fieldset class="custom-fieldset">
+                <legend>continent</legend>
+                <select class="form-select-custom">
+                    <option selected disabled>...</option>
+                    <option>Ghana</option>
+                    <option>Côte d'Ivoire</option>
+                </select>
+            </fieldset>
 
-        <fieldset class="custom-fieldset">
-            <legend>Pays</legend>
-            <select class="form-select-custom">
-                <option selected disabled>...</option>
-                <option>Ghana</option>
-                <option>Côte d'Ivoire</option>
-            </select>
-        </fieldset>
+            <fieldset class="custom-fieldset">
+                <legend>Pays</legend>
+                <select class="form-select-custom">
+                    <option selected disabled>...</option>
+                    <option>Ghana</option>
+                    <option>Côte d'Ivoire</option>
+                </select>
+            </fieldset>
 
-        <fieldset class="custom-fieldset">
-            <legend>Produit</legend>
-            <select class="form-select-custom">
-                <option selected disabled>...</option>
-                <option>Ghana</option>
-                <option>Côte d'Ivoire</option>
-            </select>
-        </fieldset>
-    </div>
+            <fieldset class="custom-fieldset">
+                <legend>Produit</legend>
+                <select class="form-select-custom">
+                    <option selected disabled>...</option>
+                    <option>Ghana</option>
+                    <option>Côte d'Ivoire</option>
+                </select>
+            </fieldset>
+        </div>
 
 
     </div>
@@ -155,17 +156,131 @@
     <div class="row">
         <div class="do">
             <div class="text-filter col-9 mt-2 align-item-center">
-                <div class="card">
-                    <div class="cardtext text-center">
-                        <p class="cardt">Pas de données disponibles pour les critères sélectionnés.</p>
-                    </div>
-                </div>
+
+                <table class="tab text-center mt-4 ">
+                    <thead style="border: 1px solid rgb(205, 205, 247);">
+                        <tr>
+                            <th>ANNÉE</th>
+                            <th>RANG</th>
+                            <th>PAYS</th>
+                            <th>VALEURS (FCFA)</th>
+                            <th>QUANTITÉ (KG)</th>
+                            <th>PART DANS LES ÉCHANGES (%)</th>
+
+                        </tr>
+                    </thead>
+
+
+                    <tbody>
+                        <tr style="border: 1px solid rgb(205, 205, 247);">
+                            <td>2024</td>
+                            <td>1</td>
+                            <td>chine</td>
+                            <td>2 181 439 475 568.54</td>
+                            <td>4 645 351 775</td>
+                            <td>8.95</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>2</td>
+                            <td>Pays-Bas</td>
+                            <td>2 181 439 475 568.54</td>
+                            <td>1 768 409 311</td>
+                            <td>7.29</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>3</td>
+                            <td>Suisse</td>
+                            <td>1 704 247 367 132.16</td>
+                            <td>56 064 050</td>
+                            <td>6.99</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>4</td>
+                            <td>Nigeria</td>
+                            <td>1 500 443 746 228.74</td>
+                            <td>3 664 229 566</td>
+                            <td>6.16</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>5</td>
+                            <td>France</td>
+                            <td>1 132 120 923 636.19</td>
+                            <td>1 038 022 358</td>
+                            <td>4.65</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>6</td>
+                            <td>États-Unis</td>
+                            <td>1 068 668 784 921.7</td>
+                            <td>1 154 005 730</td>
+                            <td>4.39</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>7</td>
+                            <td>Belgique</td>
+                            <td>1 016 000 902 601.84</td>
+                            <td>1 251 774 547</td>
+                            <td>4.17</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>8</td>
+                            <td>Mali</td>
+                            <td>973 917 625 938.78</td>
+                            <td>2 144 729 579</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>9</td>
+                            <td>Viêt Nam</td>
+                            <td>815 427 671 690.53</td>
+                            <td>1 235 133 325</td>
+                            <td>3.35</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>10</td>
+                            <td>Allemagne</td>
+                            <td>772 075 649 637.19</td>
+                            <td>4 645 351 775</td>
+                            <td>3.17</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>11</td>
+                            <td>Inde</td>
+                            <td>742 578 907 453.7</td>
+                            <td>1 242 663 926</td>
+                            <td>3.05</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>12</td>
+                            <td>Bahamas</td>
+                            <td>688 141 658 984</td>
+                            <td>74 695 018</td>
+                            <td>2.82</td>
+                        </tr>
+
+                    </tbody>
+                </table>
 
                 <div class="counters">
                     <ul class="lis">
                         <li class="whi">Debut</li>
                         <li>Precedent</li>
                         <li class="acti">1</li>
+                        <li class="mx-3">2</li>
+                        <li class="mx-3">3</li>
+                        <li class="mx-3">4</li>
+                        <li class="mx-3">5</li>
                         <li>suivant</li>
                         <li class="whi">fin</li>
                     </ul>
@@ -176,7 +291,7 @@
     </div>
 
 
-    <footer>
+    <footer class="ssss">
         <div class="footer">
             <div class="row">
                 <div class="col-md-3">

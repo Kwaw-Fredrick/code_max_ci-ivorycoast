@@ -592,9 +592,9 @@ footer hr {
     border-left: #c6183d;
 }
 
-.annees-btn:hover {
-    background: #FF7700;
-    transition: all .3s ease-in-out;
+    .annees-btn:hover {
+        background: #FF7700;
+        transition: all .3s ease-in-out;
     transform: translateY(-2px);
 }
 
@@ -603,9 +603,8 @@ footer hr {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 10px 13ppx;
+    padding: 10px 13px;
     margin-left: 10px;
-
     overflow-x: hidden;
 }
 
@@ -967,7 +966,7 @@ footer hr {
 }
 
 textarea:hover {
-    border-color: none;
+    border-color: red;
     border: 2px solid #ff6b07;
 }
 
@@ -975,7 +974,7 @@ textarea:hover {
     color: red;
 }
 
-.envoi{
+.envoi {
     background: #FF8C00;
     padding: 10px 20px;
     border-radius: 20px;
@@ -986,18 +985,46 @@ textarea:hover {
     margin-top: 70px;
 }
 
+.message-field {
+    text-align: center;
+}
 
 
-body .maaaa{
+body .maaaa {
     position: relative;
 }
 
-.maaaa{
+.maaaa {
     position: absolute;
     top: 60px;
 }
 
-.message-field{
+.message-field {
     position: relative;
     top: 30px;
+}
+
+
+.tab {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+
+
+
+th,
+td {
+    border: 1px solid #dcdcdc;
+    padding: 7px 9px;
+    font-style: italic;
+    text-align: center;
+}
+
+.ssss{
+    margin-top: 15%;
 }
